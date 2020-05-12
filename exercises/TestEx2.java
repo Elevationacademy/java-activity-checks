@@ -40,8 +40,8 @@ public class TestEx2 {
 
         for (Date d: data) {
             LocalDate today = LocalDate.of(d.Year, d.Month, d.Day);
-            LocalDate yeserday =  today.minusDays(1);
-            assertEquals(today.format(foramtter), DateCalculator.Yesterday(d.Year, d.Month, d.Day));
+            LocalDate yesterday =  today.minusDays(1);
+            assertEquals(yesterday.format(foramtter), DateCalculator.Yesterday(d.Year, d.Month, d.Day));
         }
     }
 }
