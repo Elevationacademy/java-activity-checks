@@ -3,7 +3,7 @@ package com;
 import junit.framework.TestCase;
 import org.junit.Test;
 import static com.DateCalculatorTestSetup.*;
-
+import com.DateCalculator;
 public class TestEx1 extends TestCase {
 
     @Test

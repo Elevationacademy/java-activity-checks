@@ -4,6 +4,7 @@ import junit.framework.TestCase;
 import org.junit.Test;
 import static com.DateCalculatorTestSetup.*;
 import java.time.LocalDate;
+import com.DateCalculator;
 
 public class TestEx2 {
 
