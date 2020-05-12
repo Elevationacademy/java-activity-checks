@@ -4,6 +4,8 @@ import junit.framework.TestCase;
 import org.junit.Test;
 import static com.DateCalculatorTestSetup.*;
 import com.DateCalculator;
+import static org.junit.Assert.assertEquals;
+
 public class TestEx1 extends TestCase {
 
     @Test

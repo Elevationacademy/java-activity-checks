@@ -5,6 +5,7 @@ import org.junit.Test;
 import static com.DateCalculatorTestSetup.*;
 import java.time.LocalDate;
 import com.DateCalculator;
+import static org.junit.Assert.assertEquals;
 
 public class TestEx3 {
 

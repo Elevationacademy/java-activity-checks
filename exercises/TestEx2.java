@@ -5,6 +5,7 @@ import org.junit.Test;
 import static com.DateCalculatorTestSetup.*;
 import java.time.LocalDate;
 import com.DateCalculator;
+import static org.junit.Assert.assertEquals;
 
 public class TestEx2 {
 
@@ -16,7 +17,7 @@ public class TestEx2 {
         }
 
         for (Date d: data) {
-            var today = LocalDate.of(d.Year, d.Month, d.Day);
+            LocalDate today = LocalDate.of(d.Year, d.Month, d.Day);
             int days_period = randGenerator.nextInt(5000);
             LocalDate calc_day =  today.plusDays(days_period);
             assertEquals(calc_day.format(foramtter), DateCalculator.DateAdd(d.Year, d.Month, d.Day, days_period));
