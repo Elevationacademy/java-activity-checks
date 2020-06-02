@@ -12,8 +12,8 @@ public class TestEx2 {
     @Test
     public void testDateAdd() {
         for (Date d: invalidData) {
-            var actual_result = DateCalculator.DateAdd(d.Year, d.Month, d.Day,5);
-            var expected_result = "INVALID_DATE";
+            String actual_result = DateCalculator.DateAdd(d.Year, d.Month, d.Day,5);
+            String expected_result = "INVALID_DATE";
             assertEquals(String.format("DateAdd(%d,%d,%d,%d) Function should return INVALID_DATE but it returned %s",
                     d.Year, d.Month, d.Day, 5, actual_result.toString()),
                     expected_result, actual_result);
