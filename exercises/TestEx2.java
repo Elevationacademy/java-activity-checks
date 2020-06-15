@@ -1,17 +1,11 @@
 package com;
 
-import junit.framework.TestCase;
-import org.junit.Test;
+import org.junit.*;
 import static org.junit.Assert.assertEquals;
 
-public class TestEx2 {
+public class TestEx2 extends  ZooTest{
 
     @Test
-    public void testDateAdd() {
-    }
-
-    @Test
-    public void testDateDiff() {
-
+    public void testWhale() {
     }
 }
